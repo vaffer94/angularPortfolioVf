@@ -1,0 +1,17 @@
+.project-card {
+    background: var(--section);
+    background: linear-gradient(225deg, var(--dark), var(--section));
+    height: 400px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 3px 26px 0 rgba(0,0,0,0.20);
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.project-link {
+    color: var(--text);
+    text-decoration: none;
+}
