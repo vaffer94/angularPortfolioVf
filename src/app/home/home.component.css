@@ -1,8 +1,8 @@
 /* COVER */
 .home-cover {
-  background-image: url('../../assets/images/project-covers/Cover Main.jpg');
+background-image: url('../../assets/images/project-covers/landscape_mod.JPG');
   background-position: bottom center;
-  height: 60vh;
+height: 60vh;
 
   background-attachment: fixed;
   background-size: cover;

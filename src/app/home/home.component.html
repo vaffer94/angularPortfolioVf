@@ -15,7 +15,7 @@
       <div class="col-12 col-lg-4 col-xl-3 page-info-extra">
         <div class="row">
           <div class="col-md-5 col-lg-12 page-info-profile">
-            <img class="img-fluid page-info-picture" src="/assets/images/profile.jpeg" />
+            <img class="img-fluid page-info-picture" src="/assets/images/profile.png" />
           </div>
           <div class="col d-flex align-items-center">
             <ul class="info-list">
@@ -98,8 +98,12 @@
 
       <!--language-->
       <section class="right-section">
-        <app-page-section sectionTitle="Languages" sectionSubsubtitle="My mother tongue is">
-          <app-language-card class="language-card" imagePath="assets/images/languages/italian.png"
+        <app-page-section sectionTitle="Languages">
+            <app-language-card class="language-card" imagePath="assets/images/languages/italian.png"
+            description="Italian (mother tongue)"></app-language-card>
+        <app-language-card class="language-card" imagePath="assets/images/languages/english.png" description="English(I worked in an international company)">
+        </app-language-card>
+          <!-- <app-language-card class="language-card" imagePath="assets/images/languages/italian.png"
             description="Italian"></app-language-card>
         </app-page-section>
 
@@ -109,7 +113,7 @@
           <app-language-card class="language-card" imagePath="assets/images/languages/spanish.png"
             description="¡Aprender a hablar fluidamente español!"></app-language-card>
           <app-language-card imagePath="assets/images/languages/french.png"
-            description="Commencer à parler un peu de français&nbsp;!"></app-language-card>
+            description="Commencer à parler un peu de français&nbsp;!"></app-language-card> -->
         </app-page-section>
       </section>
 
@@ -117,9 +121,9 @@
       <section class="right-section">
         <app-page-section sectionTitle="Hobbies" sectionSubsubtitle="When I'm not in front of a computer, I...">
           <div class="row row-cols-3 row-cols-lg-2">
-            <app-hobby-card imagePath="assets/images/hobbies/piano.jpg" description="Play piano"></app-hobby-card>
-            <app-hobby-card imagePath="assets/images/hobbies/cooking.jpg" description="Cook"></app-hobby-card>
-            <app-hobby-card imagePath="assets/images/hobbies/travel.jpg" description="Travel"></app-hobby-card>
+            <app-hobby-card imagePath="assets/images/hobbies/chess.png" description="Chess"></app-hobby-card>
+            <app-hobby-card imagePath="assets/images/hobbies/cooking.jpg" description="Virtual reality"></app-hobby-card>
+            <app-hobby-card imagePath="assets/images/hobbies/boardGame.jpg" description="Board game"></app-hobby-card>
           </div>
         </app-page-section>
       </section>
@@ -133,7 +137,7 @@
   </div>
 </div>
 
-<div class="container">
+<!-- <div class="container">
   <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4" style="margin-top: 10px; margin-bottom: 50px">
     <div *ngFor="let cover of coverProjects; index as i">
       <div class="col">
@@ -141,4 +145,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
