@@ -26,6 +26,9 @@ export class ExperienceService {
         description: "Lore Ipsum"
     },
 
+      // NaturalmenteSmart
+      // Scacchi
+
       // {
       //   company: "Vection Technologies",
       //   icon: "assets/images/experience-logos/vection.png",

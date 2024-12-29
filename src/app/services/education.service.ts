@@ -9,10 +9,17 @@ export class EducationService {
 
   education = [
     {
-          studyTitle: "ICT for internet and multimedia Engineering, Master Degree",
-          university: "Université Paris-Saclay",
-          url: "https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-human-computer-interaction",
-          years: "September 2021",
+          studyTitle: "ICT for internet and multimedia Engineering, Master degree (LM 27)",
+          university: "Università di Padova",
+          url: "https://mime.dei.unipd.it/",
+          years: "110/110, April 2022",
+          graduationPhoto: "assets/images/graduation-photos/unipd.jpg",
+      },
+      {
+          studyTitle: "Information Engineering, Bachelor degree (L8)",
+          university: "Università di Padova",
+          url: "https://lauree.dei.unipd.it/lauree/information-engineering/",
+          years: "November 2019",
           graduationPhoto: "assets/images/graduation-photos/unipd.jpg",
       },
 

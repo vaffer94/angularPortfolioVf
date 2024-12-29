@@ -5,7 +5,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 
 :root {
-    --background: #030b0e;
+    /* --background: #030b0e;
     --section: #091F27;
     --navbar: #091F27;
     --footer: #091F27;
@@ -19,6 +19,33 @@
     --textCaption: #F5F4DE;
     --textLink: #86B6F6;
     --highlight: #FFA600;
+        */ --background: #1A2E40;
+            /* Dark blue */
+            --section: #223A50;
+            /* Slightly lighter dark blue */
+            --navbar: #223A50;
+            /* Matches the section */
+            --footer: #1F3448;
+            /* Slightly muted dark blue */
+            --info: #2C4A66;
+            /* Muted blue with a slight gray tone */
+            --light: #3B5C82;
+            /* Lighter blue for subtle contrast */
+            --dark: #1f3c5e;
+            /* Deep blue, darker than the background */
+        
+            --text: #FFF8E7;
+            /* Soft pastel yellow for readability */
+            --textTitle: #FFA726;
+            /* Soft orange for titles */
+            --textSubtitle: #FFB74D;
+            /* Lighter orange for subtitles */
+            --textCaption: #FFE0B2;
+            /* Pale yellow-orange for captions */
+            --textLink: #FFD54F;
+            /* Vibrant pastel yellow for links */
+            --highlight: #FFDD88;
+            /* Warm pastel yellow for highlights */
 }
 
 body {

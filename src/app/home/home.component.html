@@ -81,9 +81,16 @@
           </div>
         </app-page-section>
       </section>
+    <!--certification -->
+    <section class="left-section">
+        <app-page-section sectionTitle="Certifications">
+            <div *ngFor="let e of experience; index as i">
+                <!-- <app-experience-card [index]="i"></app-experience-card> -->
+            </div>
+        </app-page-section>
+    </section>
     </div>
-
-    <div class="col">
+        <div class="col">
       <!--skills -->
       <section class="right-section">
         <app-page-section sectionTitle="Skills">
